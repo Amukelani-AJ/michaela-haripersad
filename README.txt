@@ -1,5 +1,5 @@
 MICHAELA HARIPERSAD PORTFOLIO - PACKAGE
-Live site: https://konethegreatest.github.io/michaela-haripersad/
+Live site: https://amukelani-aj.github.io/michaela-haripersad/
 Packaged: 2026-11-01
 
 START HERE
