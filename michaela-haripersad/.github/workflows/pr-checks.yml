@@ -1,0 +1,41 @@
+# Written by Kone Tshivhinda (Claude Sonnet 5.5) on 2026-10-15 - Fast checks that run on every pull request into main.
+name: PR checks
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate compliance and site
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the branch (full history for the diff and commit checks)
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Check the pull request title
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          # Allowed: "P<ID>: summary", or "chore|docs|fix: summary" (optionally with a scope).
+          if printf '%s' "$PR_TITLE" | grep -Eq '^(P[0-9]+|chore|docs|fix)(\([a-z0-9-]+\))?: .{5,}$'; then
+            echo "PR title OK: $PR_TITLE"
+          else
+            echo "::error::PR title must look like 'P2: Add music links' or 'docs: Update README' (see INSTRUCTIONS.md section 4)."
+            exit 1
+          fi
+
+      - name: Run the compliance and site validator
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: python3 scripts/validate-compliance.py --ci --base "origin/$BASE_REF"

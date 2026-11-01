@@ -1,0 +1,209 @@
+{
+  "stage-performance": {
+    "width": 1200,
+    "height": 1600,
+    "colour": "#404743",
+    "files": [
+      {
+        "file": "stage-performance-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 45636
+      },
+      {
+        "file": "stage-performance-800.webp",
+        "width": 800,
+        "height": 1067,
+        "bytes": 123720
+      },
+      {
+        "file": "stage-performance-1200.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 244918
+      }
+    ]
+  },
+  "studio-portrait-one": {
+    "width": 1200,
+    "height": 1600,
+    "colour": "#948f89",
+    "files": [
+      {
+        "file": "studio-portrait-one-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 20036
+      },
+      {
+        "file": "studio-portrait-one-800.webp",
+        "width": 800,
+        "height": 1067,
+        "bytes": 45436
+      },
+      {
+        "file": "studio-portrait-one-1200.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 83398
+      }
+    ]
+  },
+  "office-seated": {
+    "width": 1068,
+    "height": 1600,
+    "colour": "#7b8282",
+    "files": [
+      {
+        "file": "office-seated-480.webp",
+        "width": 480,
+        "height": 719,
+        "bytes": 31004
+      },
+      {
+        "file": "office-seated-800.webp",
+        "width": 800,
+        "height": 1199,
+        "bytes": 62502
+      },
+      {
+        "file": "office-seated-1068.webp",
+        "width": 1068,
+        "height": 1600,
+        "bytes": 95054
+      }
+    ]
+  },
+  "office-smile-portrait": {
+    "width": 1068,
+    "height": 1600,
+    "colour": "#8c908f",
+    "files": [
+      {
+        "file": "office-smile-portrait-480.webp",
+        "width": 480,
+        "height": 719,
+        "bytes": 23946
+      },
+      {
+        "file": "office-smile-portrait-800.webp",
+        "width": 800,
+        "height": 1199,
+        "bytes": 46740
+      },
+      {
+        "file": "office-smile-portrait-1068.webp",
+        "width": 1068,
+        "height": 1600,
+        "bytes": 69942
+      }
+    ]
+  },
+  "editorial-suit": {
+    "width": 1034,
+    "height": 1600,
+    "colour": "#313633",
+    "files": [
+      {
+        "file": "editorial-suit-480.webp",
+        "width": 480,
+        "height": 743,
+        "bytes": 37584
+      },
+      {
+        "file": "editorial-suit-800.webp",
+        "width": 800,
+        "height": 1238,
+        "bytes": 88330
+      },
+      {
+        "file": "editorial-suit-1034.webp",
+        "width": 1034,
+        "height": 1600,
+        "bytes": 143772
+      }
+    ]
+  },
+  "street-golden-hour": {
+    "width": 1066,
+    "height": 1600,
+    "colour": "#6f6968",
+    "files": [
+      {
+        "file": "street-golden-hour-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 47860
+      },
+      {
+        "file": "street-golden-hour-800.webp",
+        "width": 800,
+        "height": 1201,
+        "bytes": 104572
+      },
+      {
+        "file": "street-golden-hour-1066.webp",
+        "width": 1066,
+        "height": 1600,
+        "bytes": 161802
+      }
+    ]
+  },
+  "studio-sunglasses": {
+    "width": 1200,
+    "height": 1600,
+    "colour": "#565150",
+    "files": [
+      {
+        "file": "studio-sunglasses-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 18822
+      },
+      {
+        "file": "studio-sunglasses-800.webp",
+        "width": 800,
+        "height": 1067,
+        "bytes": 48696
+      },
+      {
+        "file": "studio-sunglasses-1200.webp",
+        "width": 1200,
+        "height": 1600,
+        "bytes": 107276
+      }
+    ]
+  },
+  "graduation-portrait": {
+    "width": 360,
+    "height": 480,
+    "colour": "#46494d",
+    "files": [
+      {
+        "file": "graduation-portrait-180.webp",
+        "width": 180,
+        "height": 240,
+        "bytes": 7456
+      },
+      {
+        "file": "graduation-portrait-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 20220
+      }
+    ]
+  },
+  "stage-face": {
+    "width": 360,
+    "height": 360,
+    "colour": "#3f4036",
+    "files": [
+      {
+        "file": "stage-face-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 26704
+      }
+    ]
+  }
+}

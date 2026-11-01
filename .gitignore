@@ -1,0 +1,9 @@
+# Private package folders - never commit
+linkedin/
+photos/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/

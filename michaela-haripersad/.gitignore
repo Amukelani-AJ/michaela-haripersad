@@ -1,0 +1,29 @@
+# Written by Kone Tshivhinda (Claude Sonnet 5.5) on 2026-10-15 - Keeps private and generated files out of the public repository.
+
+# Private working files - never commit
+originals/
+docs/engineers/*.md
+!docs/engineers/.gitkeep
+.env
+.env.*
+*.pem
+*.key
+
+# Local tooling and caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch output
+*.log
+*.zip
+tmp/
